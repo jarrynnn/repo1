@@ -1,0 +1,13 @@
+Q: How do you see the files changed within each commit from git log?
+
+A: In the terminal, writing 'git log' within the relevant repository will show all commits in chronological order, including the times they have been changed and by whom. 
+'git log --stat' shows the files involved in any Commit, inlcuding the filepaths and any additions and removals of content indicated by '+' and '-'.
+
+Q: How do you see the contents of what changed within each file from the git log?
+
+A: The command 'git log --patch' can be used to show all the changes between commits, with '+' or '-' for any additions or removals of content in a file. 
+You can also use the 'diff' command to show changes between your current file and the latest staged file / commit.
+
+Q: What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within a merge conflict)
+
+A: The HEAD refers to the most recent Commit.
